@@ -14,7 +14,7 @@ function App() {
   let linkName = 'Add Game';
 
   return (
-    <Router basename={process.env.PUBLIC_URL} className='flex-wrapper'>
+    <Router basename='/video-game-catalogue' className='flex-wrapper'>
       <Header title={title} linkName={linkName} />
       <Routes>
         <Route path="*" element={<NotFound />} />
