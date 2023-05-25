@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.a55f00ff.css",
-    "main.js": "/react-gh-pages/static/js/main.bb33be89.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.a55f00ff.css.map": "/react-gh-pages/static/css/main.a55f00ff.css.map",
-    "main.bb33be89.js.map": "/react-gh-pages/static/js/main.bb33be89.js.map"
+    "main.css": "/video-game-catalogue/static/css/main.bacaecda.css",
+    "main.js": "/video-game-catalogue/static/js/main.c01e72ad.js",
+    "index.html": "/video-game-catalogue/index.html",
+    "main.bacaecda.css.map": "/video-game-catalogue/static/css/main.bacaecda.css.map",
+    "main.c01e72ad.js.map": "/video-game-catalogue/static/js/main.c01e72ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.a55f00ff.css",
-    "static/js/main.bb33be89.js"
+    "static/css/main.bacaecda.css",
+    "static/js/main.c01e72ad.js"
   ]
 }
