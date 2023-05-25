@@ -1,5 +1,5 @@
 
-import './style/index.css';
+import './style/index.css'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Catalogue from './components/Catalogue';
@@ -18,7 +18,7 @@ function App() {
       <Header title={title} linkName={linkName} />
       <Routes>
         <Route path="/" element={<Catalogue />} />
-        <Route path="/item/:id" element={<Detail />} />
+        <Route path="/item/:id" element={<Detail games={[]} />} />
         <Route path="/new" element={<New />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
@@ -28,4 +28,3 @@ function App() {
 }
 
 export default App;
-
