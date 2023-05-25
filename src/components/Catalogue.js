@@ -2,10 +2,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Header from './Header';
+import Footer from './Footer';
 
 function Catalogue() {
   const [games, setGames] = useState([]);
   const [sorted, setSorted] = useState(false);
+  let title = 'Steam Catalogue';
+  let linkName = 'Add Game';
 
   useEffect(() => {
     // Set array to empty to load api data at page load
@@ -17,7 +21,7 @@ function Catalogue() {
       const response = await axios.get('https://rawg-video-games-database.p.rapidapi.com/games', {
         params: {
           key: '171d163a4adb4c4e9adfea25abe0d0b5',
-          dates: '2023-04-27,2023-05-25',
+          dates: '2023-04-01,2023-05-25',
         },
         headers: {
           'X-RapidAPI-Key': '2f884ce492mshedf7e86009770d5p12c91ajsnf80a5a24e64b',
@@ -54,6 +58,7 @@ function Catalogue() {
 
   return (
     <div>
+      <Header title={title} linkName={linkName} />
       <button className="sort" onClick={sorted ? resetSorting : sortGamesByTitle}>
         {sorted ? 'Reset' : 'Sort Games'}
       </button>
@@ -67,6 +72,7 @@ function Catalogue() {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import New from './New';
+import {FaTimes} from 'react-icons/fa'
 
 function Header({ title }) {
   const [showForm, setShowForm] = useState(false);
@@ -25,7 +26,7 @@ function Header({ title }) {
         <div className="overlay">
           <div className="dialog">
             <button className="close" onClick={handleCloseForm}>
-              <p className='x'>&times;</p>
+              <FaTimes />
             </button>
             <New />
           </div>
