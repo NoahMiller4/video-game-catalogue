@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/video-game-catalogue/static/css/main.30d1f661.css",
-    "main.js": "/video-game-catalogue/static/js/main.071c286a.js",
+    "main.js": "/video-game-catalogue/static/js/main.60dc2b1c.js",
     "index.html": "/video-game-catalogue/index.html",
     "main.30d1f661.css.map": "/video-game-catalogue/static/css/main.30d1f661.css.map",
-    "main.071c286a.js.map": "/video-game-catalogue/static/js/main.071c286a.js.map"
+    "main.60dc2b1c.js.map": "/video-game-catalogue/static/js/main.60dc2b1c.js.map"
   },
   "entrypoints": [
     "static/css/main.30d1f661.css",
-    "static/js/main.071c286a.js"
+    "static/js/main.60dc2b1c.js"
   ]
 }
