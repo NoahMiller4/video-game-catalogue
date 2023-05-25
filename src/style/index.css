@@ -2,7 +2,7 @@
 
 :root {
     --app-border-raidus: 5px;
-    --app-grey-bg: #c1c3c5;
+    --app-grey-bg: #d3d3d3;
     --app-bg-dark: #1a1c24;
 }
 
@@ -25,7 +25,7 @@ body {
   }
 
 main {
-    flex-grow: 1;
+    flex: 1;
 }
 
 /*-----------------------------------------------------*/
@@ -91,7 +91,7 @@ button[type=submit] {
 }
 
 /*-----------------------------------------------------*/
-/* Content                                              */
+/* Content                                             */
 /*-----------------------------------------------------*/
 
 .catalogue {
@@ -251,7 +251,6 @@ input, textarea {
 /*-----------------------------------------------------*/
 
 footer {
-    margin-top: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.08);
     color: #1a2124;
@@ -260,7 +259,6 @@ footer {
     line-height: 56px;
     font-size: 28px;
     cursor: default;
-    margin-top: 10px;
 }
 
 
@@ -270,3 +268,42 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/*-----------------------------------------------------*/
+/* 404                                                 */
+/*-----------------------------------------------------*/
+
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 112px);
+    background-image: url('https://64.media.tumblr.com/2a2ec3b35c7b4059a122965c87a1b24d/tumblr_npc69bVQMx1uun6jmo1_1280.gif');
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.not-found-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+  
+.spinner {
+    animation: spin 1.5s infinite linear;
+    font-size: 100px;
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
