@@ -5,7 +5,7 @@ import { FaGamepad } from 'react-icons/fa';
 function NotFound() {
   return (
     <div className="not-found-container">
-      <div className="not-found-content">
+      <div className="content">
         <FaGamepad className="spinner" />
         <h1>No Games Here!</h1>
       </div>
