@@ -284,7 +284,7 @@ footer {
     margin: 0;
   }
   
-content {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
