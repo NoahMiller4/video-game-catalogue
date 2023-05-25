@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/video-game-catalogue/static/css/main.bacaecda.css",
-    "main.js": "/video-game-catalogue/static/js/main.c01e72ad.js",
+    "main.js": "/video-game-catalogue/static/js/main.98f20e76.js",
     "index.html": "/video-game-catalogue/index.html",
     "main.bacaecda.css.map": "/video-game-catalogue/static/css/main.bacaecda.css.map",
-    "main.c01e72ad.js.map": "/video-game-catalogue/static/js/main.c01e72ad.js.map"
+    "main.98f20e76.js.map": "/video-game-catalogue/static/js/main.98f20e76.js.map"
   },
   "entrypoints": [
     "static/css/main.bacaecda.css",
-    "static/js/main.c01e72ad.js"
+    "static/js/main.98f20e76.js"
   ]
 }
